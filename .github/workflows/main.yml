@@ -26,3 +26,6 @@ jobs:
 
       - name: Run update script
         run: yarn update-standings
+        env:
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+          GOOGLE_CREDENTIAL_STRING: ${{ secrets.GOOGLE_CREDENTIAL_STRING }}
