@@ -1,0 +1,26 @@
+type: string
+enum:
+  - "F"
+  - "D"
+  - "S"
+  - "I"
+  - "P"
+  - "O"
+  - "C"
+x-enum-varnames:
+  - Final
+  - Postponed
+  - Scheduled
+  - InProgress
+  - Pregame
+  - GameOver
+  - Canceled
+description: >
+  Coded Game State
+    * `F` - Final
+    * `D` - Delayed/Postponed
+    * `S` - Scheduled
+    * `I` - In Progress
+    * `P` - Pregame
+    * `O` - Game Over
+    * `C` - Canceled

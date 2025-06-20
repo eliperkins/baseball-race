@@ -1,0 +1,71 @@
+title: Batting Stats
+description: >
+  Batting Stats
+type: object
+properties:
+  flyOuts:
+    type: number
+  groundOuts:
+    type: number
+  airOuts:
+    type: number
+  runs:
+    type: number
+  doubles:
+    type: number
+  triples:
+    type: number
+  homeRuns:
+    type: number
+  strikeOuts:
+    type: number
+  baseOnBalls:
+    type: number
+  intentionalWalks:
+    type: number
+  hits:
+    type: number
+  hitByPitch:
+    type: number
+  avg:
+    type: string
+  atBats:
+    type: number
+  obp:
+    type: string
+  slg:
+    type: string
+  ops:
+    type: string
+  caughtStealing:
+    type: number
+  stolenBases:
+    type: number
+  stolenBasePercentage:
+    type: string
+  groundIntoDoublePlay:
+    type: number
+  groundIntoTriplePlay:
+    type: number
+  plateAppearances:
+    type: number
+  totalBases:
+    type: number
+  rbi:
+    type: number
+  leftOnBase:
+    type: number
+  sacBunts:
+    type: number
+  sacFlies:
+    type: number
+  catchersInterference:
+    type: number
+  pickoffs:
+    type: number
+  atBatsPerHomeRun:
+    type: string
+  popOuts:
+    type: number
+  lineOuts:
+    type: number

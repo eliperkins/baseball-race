@@ -1,0 +1,20 @@
+title: Inning
+description: >
+  Inning
+type: object
+required:
+  - num
+  - ordinalNum
+  - home
+  - away
+properties:
+  num:
+    type: number
+    default: 0
+  ordinalNum:
+    type: string
+    default: ""
+  home:
+    $ref: ./schemas.yaml#/LinescoreTeam
+  away:
+    $ref: ./schemas.yaml#/LinescoreTeam

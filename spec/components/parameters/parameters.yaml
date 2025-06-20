@@ -1,0 +1,31 @@
+# ./path
+PathGamePk:
+  $ref: ./path/gamePk.yaml
+
+# ./query
+Date:
+  $ref: ./query/date.yaml
+EndDate:
+  $ref: ./query/endDate.yaml
+Fields:
+  $ref: ./query/fields.yaml
+GameTypes:
+  $ref: ./query/gameTypes.yaml
+QueryGamePk:
+  $ref: ./query/gamePk.yaml
+Hydrate:
+  $ref: ./query/hydrate.yaml
+LeagueId:
+  $ref: ./query/leagueId.yaml
+LeagueIds:
+  $ref: ./query/leagueIds.yaml
+Season:
+  $ref: ./query/season.yaml
+SportId:
+  $ref: ./query/sportId.yaml
+StartDate:
+  $ref: ./query/startDate.yaml
+TeamId:
+  $ref: ./query/teamId.yaml
+Teams:
+  $ref: ./query/teams.yaml

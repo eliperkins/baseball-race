@@ -1,0 +1,9 @@
+in: query
+name: teamId
+required: false
+schema:
+  type: array
+  style: form
+  explode: false
+  items:
+    type: number

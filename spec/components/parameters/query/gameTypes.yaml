@@ -1,0 +1,8 @@
+in: query
+name: gameTypes
+required: false
+explode: true
+schema:
+  type: array
+  items:
+    $ref: ../../schemas/schemas.yaml#/GameType

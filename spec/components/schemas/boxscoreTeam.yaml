@@ -1,0 +1,54 @@
+title: BoxscoreTeam
+description: >
+  Boxscore Team
+type: object
+required:
+  - team
+  - teamStats
+  - players
+  - batters
+  - pitchers
+  - bullpen
+  - bench
+properties:
+  team:
+    $ref: ./schemas.yaml#/Team
+  teamStats:
+    title: TeamStats
+    type: object
+    required:
+      - batting
+      - pitching
+      - fielding
+    properties:
+      batting:
+        $ref: ./schemas.yaml#/BattingStats
+      pitching:
+        $ref: ./schemas.yaml#/PitchingStats
+      fielding:
+        $ref: ./schemas.yaml#/FieldingStats
+  batters:
+    title: BoxscoreTeamBatters
+    type: array
+    items:
+      type: number
+  pitchers:
+    title: BoxscoreTeamPitchers
+    type: array
+    items:
+      type: number
+  bullpen:
+    title: BoxscoreTeamBullpen
+    type: array
+    items:
+      type: number
+  bench:
+    title: BoxscoreTeamBench
+    type: array
+    items:
+      type: number
+  players:
+    title: BoxscoreTeamPlayers
+    type: object
+    additionalProperties:
+      $ref: ./schemas.yaml#/Player

@@ -1,0 +1,21 @@
+title: Sport
+description: >
+  Sport
+type: object
+required:
+  - id
+properties:
+  id:
+    type: number
+  code:
+    type: string
+  link:
+    type: string
+  name:
+    type: string
+  abbreviation:
+    type: string 
+  sortOrder:
+    type: number
+  activeStatus:
+    type: boolean

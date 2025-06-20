@@ -1,0 +1,6 @@
+description: The unique identifier of a game
+in: query
+name: gamePk
+required: false
+schema:
+  type: number

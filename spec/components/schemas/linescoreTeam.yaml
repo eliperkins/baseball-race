@@ -1,0 +1,22 @@
+title: LinescoreTeam
+description: >
+  InningTeam
+type: object
+required:
+  - runs
+  - hits
+  - errors
+  - leftOnBase
+properties:
+  runs:
+    type: number
+    default: 0
+  hits:
+    type: number
+    default: 0
+  errors:
+    type: number
+    default: 0
+  leftOnBase:
+    type: number
+    default: 0

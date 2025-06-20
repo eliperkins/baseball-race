@@ -1,0 +1,7 @@
+title: GameOfficial
+type: object
+properties:
+  official:
+    $ref: ./schemas.yaml#/Official
+  officialType:
+    type: string

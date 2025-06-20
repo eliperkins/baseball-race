@@ -1,0 +1,52 @@
+BattingStats:
+  $ref: ./battingStats.yaml
+Boxscore:
+  $ref: ./boxscore.yaml
+BoxscoreTeam:
+  $ref: ./boxscoreTeam.yaml
+Division:
+  $ref: ./division.yaml
+DivisionStandings:
+  $ref: ./divisionStandings.yaml
+FieldingStats:
+  $ref: ./fieldingStats.yaml
+Game:
+  $ref: ./game.yaml
+GameOfficial:
+  $ref: ./gameOfficial.yaml
+GameTeam:
+  $ref: ./gameTeam.yaml
+GameStatusCode:
+  $ref: ./gameStatusCode.yaml
+GameType:
+  $ref: ./gameType.yaml
+Inning:
+  $ref: ./inning.yaml
+Linescore:
+  $ref: ./linescore.yaml
+LinescoreTeam:
+  $ref: ./linescoreTeam.yaml
+League:
+  $ref: ./league.yaml
+LeagueRecord:
+  $ref: ./leagueRecord.yaml
+Official:
+  $ref: ./official.yaml
+PitchingStats:
+  $ref: ./pitchingStats.yaml
+Player:
+  $ref: ./player.yaml
+Record:
+  $ref: ./record.yaml
+Seasons:
+  $ref: ./seasons.yaml
+Season:
+  $ref: ./season.yaml
+Schedule:
+  $ref: ./schedule.yaml
+Sport:
+  $ref: ./sport.yaml
+Team:
+  $ref: ./team.yaml
+Venue:
+  $ref: ./venue.yaml

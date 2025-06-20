@@ -1,0 +1,101 @@
+title: Pitching Stats
+description: >
+  Pitching Stats
+type: object
+properties:
+  flyOuts:
+    type: number
+  groundOuts:
+    type: number
+  airOuts:
+    type: number
+  runs:
+    type: number
+  doubles:
+    type: number
+  triples:
+    type: number
+  homeRuns:
+    type: number
+  strikeOuts:
+    type: number
+  baseOnBalls:
+    type: number
+  intentionalWalks:
+    type: number
+  hits:
+    type: number
+  hitByPitch:
+    type: number
+  atBats:
+    type: number
+  obp:
+    type: string
+  caughtStealing:
+    type: number
+  stolenBases:
+    type: number
+  stolenBasePercentage:
+    type: string
+  numberOfPitches:
+    type: number
+  era:
+    type: string
+  inningsPitched:
+    type: string
+  saveOpportunities:
+    type: number
+  earnedRuns:
+    type: number
+  whip:
+    type: string
+  battersFaced:
+    type: number
+  outs:
+    type: number
+  completeGames:
+    type: number
+  shutouts:
+    type: number
+  pitchesThrown:
+    type: number
+  balls:
+    type: number
+  strikes:
+    type: number
+  strikePercentage:
+    type: string
+  hitBatsmen:
+    type: number
+  balks:
+    type: number
+  wildPitches:
+    type: number
+  pickoffs:
+    type: number
+  groundOutsToAirouts:
+    type: string
+  rbi:
+    type: number
+  pitchesPerInning:
+    type: string
+  runsScoredPer9:
+    type: string
+  homeRunsPer9:
+    type: string
+  inheritedRunners:
+    type: number
+  inheritedRunnersScored:
+    type: number
+  catchersInterference:
+    type: number
+  sacBunts:
+    type: number
+  sacFlies:
+    type: number
+  passedBall:
+    type: number
+  popOuts:
+    type: number
+  lineOuts:
+    type: number

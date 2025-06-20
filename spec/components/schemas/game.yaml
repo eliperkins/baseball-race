@@ -1,0 +1,106 @@
+title: Game
+description: >
+  Game Thing
+type: object
+required:
+  - gamePk
+  - gameGuid
+  - gameType
+  - season
+  - gameDate
+  - officialDate
+  - status
+  - teams
+  - gameNumber
+  - gamesInSeries
+  - seriesGameNumber
+properties:
+  gamePk:
+    type: number
+  gameGuid:
+    type: string
+  link:
+    type: string
+  gameType:
+    $ref: ./schemas.yaml#/GameType
+  season:
+    type: number
+  gameDate:
+    type: string
+  officialDate:
+    type: string
+  rescheduledTo:
+    type: number
+  rescheduledToDate:
+    type: string
+  rescheduledFrom:
+    type: number
+  rescheduledFromDate:
+    type: string
+  status:
+    title: GameStatus
+    type: object
+    properties:
+      abstractGameState:
+        type: string
+      codedGameState:
+        $ref: ./schemas.yaml#/GameStatusCode
+      detailedState:
+        type: string
+      statusCode:
+        type: string
+      startTimeTBD:
+        type: boolean 
+      abstractGameCode:
+        type: string
+  teams:
+    title: GameTeams
+    type: object
+    required:
+      - away
+      - home
+    properties:
+      away:
+        $ref: ./schemas.yaml#/GameTeam
+      home:
+        $ref: ./schemas.yaml#/GameTeam
+  venue:
+    $ref: ./schemas.yaml#/Venue
+  isTie:
+    type: boolean
+  gameNumber:
+    type: number
+  publicFacing:
+    type: boolean 
+  doubleHeader:
+    type: string # enum?
+  gamedayType:
+    type: string # enum?
+  tiebreaker:
+    type: string # enum?
+  calendarEventID:
+    type: string
+  seasonDisplay:
+    type: string
+  dayNight:
+    type: string # enum?
+  description:
+    type: string
+  scheduledInnings:
+    type: number 
+  reverseHomeAwayStatus:
+    type: boolean 
+  inningBreakLength:
+    type: number 
+  gamesInSeries:
+    type: number 
+  seriesGameNumber:
+    type: number
+  seriesDescription:
+    type: string
+  recordSource:
+    type: string # enum
+  ifNecessary:
+    type: string # enum
+  ifNecessaryDescription:
+    type: string

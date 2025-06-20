@@ -1,0 +1,26 @@
+# /v1/teams
+get:
+  operationId: getDivisions
+  summary: Retrieves Divisions
+  description: >
+    Returns Divisions
+  parameters:
+    - $ref: ../components/parameters/parameters.yaml#/SportId
+    - $ref: ../components/parameters/parameters.yaml#/Season
+  tags:
+    - mlb
+  responses:
+    "200":
+      description: OK
+      content:
+        application/json:
+          schema:
+            title: Divisions
+            type: object
+            required:
+              - divisions
+            properties:
+              divisions:
+                type: array
+                items:
+                  $ref: ../components/schemas/schemas.yaml#/Division

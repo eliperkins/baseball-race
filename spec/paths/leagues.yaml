@@ -1,0 +1,26 @@
+# /v1/teams
+get:
+  operationId: getLeagues
+  summary: Retrieves Leagues
+  description: >
+    Returns Leagues
+  parameters:
+    - $ref: ../components/parameters/parameters.yaml#/SportId
+    - $ref: ../components/parameters/parameters.yaml#/Season
+  tags:
+    - mlb
+  responses:
+    "200":
+      description: OK
+      content:
+        application/json:
+          schema:
+            title: Leagues
+            type: object
+            required:
+              - leagues
+            properties:
+              leagues:
+                type: array
+                items:
+                  $ref: ../components/schemas/schemas.yaml#/League

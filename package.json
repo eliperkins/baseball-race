@@ -1,0 +1,19 @@
+{
+  "name": "baseball-race",
+  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "populate": "ts-node src/populate.ts",
+    "update-standings": "ts-node src/update.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "googleapis": "^150.0.1",
+    "openapi-fetch": "^0.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

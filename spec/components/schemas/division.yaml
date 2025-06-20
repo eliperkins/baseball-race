@@ -1,0 +1,32 @@
+title: Division
+description: >
+  Division 
+type: object
+required:
+  - id
+  - name
+properties:
+  id:
+    type: number
+  name:
+    type: string
+  season:
+    type: string
+  nameShort:
+    type: string
+  link:
+    type: string
+  abbreviation:
+    type: string
+  league:
+    $ref: ./schemas.yaml#/League
+  sport:
+    $ref: ./schemas.yaml#/Sport
+  hasWildcard:
+    type: boolean 
+  sortOrder:
+    type: number
+  numPlayoffTeams:
+    type: number
+  active:
+    type: boolean

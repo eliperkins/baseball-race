@@ -1,0 +1,22 @@
+title: GameTeam
+description: >
+  Game Team
+type: object
+required:
+  - leagueReccord
+  - score
+  - isWinner
+  - team
+properties:
+  leagueRecord:
+    $ref: ./schemas.yaml#/LeagueRecord
+  score:
+    type: number
+  team:
+    $ref: ./schemas.yaml#/Team
+  isWinner:
+    type: boolean
+  splitSquad:
+    type: boolean
+  seriesNumber:
+    type: number

@@ -1,0 +1,25 @@
+# /v1/schedule
+get:
+  operationId: getSchedule
+  summary: Retrieves schedule
+  description: >
+    Returns Schedule
+  parameters:
+    - $ref: ../components/parameters/parameters.yaml#/QueryGamePk
+    - $ref: ../components/parameters/parameters.yaml#/SportId
+    - $ref: ../components/parameters/parameters.yaml#/GameTypes
+    - $ref: ../components/parameters/parameters.yaml#/StartDate
+    - $ref: ../components/parameters/parameters.yaml#/EndDate
+    - $ref: ../components/parameters/parameters.yaml#/Fields
+    - $ref: ../components/parameters/parameters.yaml#/Hydrate
+    - $ref: ../components/parameters/parameters.yaml#/LeagueIds
+    - $ref: ../components/parameters/parameters.yaml#/Teams
+  tags:
+    - mlb
+  responses:
+    "200":
+      description: OK
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/schemas.yaml#/Schedule

@@ -1,0 +1,23 @@
+title: Fielding Stats
+description: >
+  Fielding Stats
+type: object
+properties:
+  caughtStealing:
+    type: number
+  stolenBases:
+    type: number
+  stolenBasePercentage:
+    type: string
+  assists:
+    type: number
+  putOuts:
+    type: number
+  errors:
+    type: number
+  chances:
+    type: number
+  passedBall:
+    type: number
+  pickoffs:
+    type: number

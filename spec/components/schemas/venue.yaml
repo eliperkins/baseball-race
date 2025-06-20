@@ -1,0 +1,18 @@
+title: Venue
+description: >
+  Venue
+type: object
+required:
+  - id
+  - name
+properties:
+  id:
+    type: number
+  name:
+    type: string
+  link:
+    type: string
+  active:
+    type: boolean
+  season:
+    type: string

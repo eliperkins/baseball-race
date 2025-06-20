@@ -1,0 +1,52 @@
+title: Team
+description: >
+  Team
+type: object
+required:
+  - id
+  - name
+properties:
+  id:
+    type: number
+  name:
+    type: string
+  link:
+    type: string
+  allStarStatus:
+    type: string
+  season:
+    type: number
+  venue:
+    $ref: ./schemas.yaml#/Venue
+  springVenue:
+    $ref: ./schemas.yaml#/Venue
+  teamCode:
+    type: string
+  fileCode:
+    type: string
+  abbreviation:
+    type: string
+  teamName:
+    type: string
+  locationName:
+    type: string
+  firstYearOfPlay:
+    type: string
+  league:
+    $ref: ./schemas.yaml#/League
+  springLeague:
+    $ref: ./schemas.yaml#/League
+  division:
+    $ref: ./schemas.yaml#/Division
+  sport:
+    $ref: ./schemas.yaml#/Sport
+  record:
+    $ref: ./schemas.yaml#/Record
+  shortName:
+    type: string
+  franchiseName:
+    type: string
+  clubName:
+    type: string
+  active:
+    type: boolean

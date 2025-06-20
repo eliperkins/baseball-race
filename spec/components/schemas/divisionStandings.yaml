@@ -1,0 +1,24 @@
+title: DivisionStandings
+description: >
+  Standings
+type: object
+required:
+  - league
+  - division
+  - sport
+  - teamRecords
+properties:
+  standingsType:
+    type: string
+  league:
+    $ref: ./schemas.yaml#/League
+  division:
+    $ref: ./schemas.yaml#/Division
+  sport:
+    $ref: ./schemas.yaml#/Sport
+  lastUpdated:
+    type: string 
+  teamRecords:
+    type: array
+    items:
+      $ref: ./schemas.yaml#/Record

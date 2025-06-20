@@ -1,0 +1,18 @@
+# /v1/game/{gamePk}/boxscore
+get:
+  operationId: getBoxscore
+  summary: Retrieves boxscore
+  description: >
+    Returns Boxscore
+  parameters:
+    - $ref: ../components/parameters/parameters.yaml#/PathGamePk
+    - $ref: ../components/parameters/parameters.yaml#/Fields
+  tags:
+    - mlb
+  responses:
+    "200":
+      description: OK
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/schemas.yaml#/Boxscore

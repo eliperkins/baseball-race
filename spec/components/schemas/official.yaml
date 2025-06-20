@@ -1,0 +1,9 @@
+title: Official
+type: object
+properties:
+  id:
+    type: number
+  fullName:
+    type: string
+  link:
+    type: string
