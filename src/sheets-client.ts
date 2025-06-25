@@ -32,6 +32,8 @@ export const updateStandings = async (date: Date) => {
       record.team.id,
       record.wins,
       record.losses,
+      record.runsScored,
+      record.runsAllowed,
     ]),
   );
 
