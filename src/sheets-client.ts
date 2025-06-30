@@ -40,7 +40,7 @@ export const updateStandings = async (date: Date) => {
   await sheets.spreadsheets.values.append({
     spreadsheetId: SHEET_ID,
     range: TEAM_RECORDS_BY_DAY,
-    valueInputOption: "RAW",
+    valueInputOption: "USER_ENTERED",
     requestBody: {
       values: standingRecords,
     },
