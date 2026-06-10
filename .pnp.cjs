@@ -471,7 +471,7 @@ const RAW_RUNTIME_STATE =
           ["gaxios", "npm:7.1.0"],\
           ["google-auth-library", "npm:10.1.0"],\
           ["googleapis-common", "npm:8.0.2-rc.0"],\
-          ["qs", "npm:6.14.2"],\
+          ["qs", "npm:6.15.2"],\
           ["url-template", "npm:2.0.8"]\
         ],\
         "linkType": "HARD"\
@@ -637,10 +637,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["qs", [\
-      ["npm:6.14.2", {\
-        "packageLocation": "../../.yarn/berry/cache/qs-npm-6.14.2-dc981e3564-10c0.zip/node_modules/qs/",\
+      ["npm:6.15.2", {\
+        "packageLocation": "../../.yarn/berry/cache/qs-npm-6.15.2-4fbd3d7cd4-10c0.zip/node_modules/qs/",\
         "packageDependencies": [\
-          ["qs", "npm:6.14.2"],\
+          ["qs", "npm:6.15.2"],\
           ["side-channel", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
