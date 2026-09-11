@@ -471,7 +471,7 @@ const RAW_RUNTIME_STATE =
           ["gaxios", "npm:7.1.0"],\
           ["google-auth-library", "npm:10.1.0"],\
           ["googleapis-common", "npm:8.0.2-rc.0"],\
-          ["qs", "npm:6.15.2"],\
+          ["qs", "npm:6.16.0"],\
           ["url-template", "npm:2.0.8"]\
         ],\
         "linkType": "HARD"\
@@ -637,11 +637,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["qs", [\
-      ["npm:6.15.2", {\
-        "packageLocation": "../../.yarn/berry/cache/qs-npm-6.15.2-4fbd3d7cd4-10c0.zip/node_modules/qs/",\
+      ["npm:6.16.0", {\
+        "packageLocation": "../../.yarn/berry/cache/qs-npm-6.16.0-160b61647c-10c0.zip/node_modules/qs/",\
         "packageDependencies": [\
-          ["qs", "npm:6.15.2"],\
-          ["side-channel", "npm:1.1.0"]\
+          ["es-define-property", "npm:1.0.1"],\
+          ["qs", "npm:6.16.0"],\
+          ["side-channel", "npm:1.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -656,13 +657,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["side-channel", [\
-      ["npm:1.1.0", {\
-        "packageLocation": "../../.yarn/berry/cache/side-channel-npm-1.1.0-4993930974-10c0.zip/node_modules/side-channel/",\
+      ["npm:1.1.1", {\
+        "packageLocation": "../../.yarn/berry/cache/side-channel-npm-1.1.1-3d97a5a6fb-10c0.zip/node_modules/side-channel/",\
         "packageDependencies": [\
           ["es-errors", "npm:1.3.0"],\
           ["object-inspect", "npm:1.13.4"],\
-          ["side-channel", "npm:1.1.0"],\
-          ["side-channel-list", "npm:1.0.0"],\
+          ["side-channel", "npm:1.1.1"],\
+          ["side-channel-list", "npm:1.0.1"],\
           ["side-channel-map", "npm:1.0.1"],\
           ["side-channel-weakmap", "npm:1.0.2"]\
         ],\
@@ -670,12 +671,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["side-channel-list", [\
-      ["npm:1.0.0", {\
-        "packageLocation": "../../.yarn/berry/cache/side-channel-list-npm-1.0.0-14f74146d1-10c0.zip/node_modules/side-channel-list/",\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../.yarn/berry/cache/side-channel-list-npm-1.0.1-7a0802d399-10c0.zip/node_modules/side-channel-list/",\
         "packageDependencies": [\
           ["es-errors", "npm:1.3.0"],\
           ["object-inspect", "npm:1.13.4"],\
-          ["side-channel-list", "npm:1.0.0"]\
+          ["side-channel-list", "npm:1.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
